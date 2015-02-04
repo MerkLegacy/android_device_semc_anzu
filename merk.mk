@@ -16,7 +16,7 @@
 $(call inherit-product, device/semc/anzu/full_anzu.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/merk/config/common_mini_phone.mk)
+$(call inherit-product, vendor/merk/config/common_full_phone.mk)
 
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
